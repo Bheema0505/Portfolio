@@ -41,7 +41,7 @@ function About() {
                         <span style={{ color: 'white' }}> Developer </span> and
                         <span style={{ color: 'white' }}> Disigner </span>
                         (<span className='para-unique'>sometimes</span>)
-                        with a passion for creating engaging and entertaining User Experiences 🪄 .
+                        with a passion for creating dynamic, responsive and User-friendly web applications 🪄 .
 
                         Currently working in <span style={{ color: 'RoyalBlue' }}>Infosys LTD </span>
                         as a React Developer.

@@ -80,7 +80,7 @@ function Skills() {
                         <article className='exerience__details'>
                             <BsFillPatchCheckFill className='icon' />
                             <div>
-                                <h4>Node.js</h4>
+                                <h4>Mountebank</h4>
                                 <small className='text-light'>Beginner</small>
                             </div>
                         </article>
@@ -91,7 +91,13 @@ function Skills() {
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
-
+                        <article className='exerience__details'>
+                            <BsFillPatchCheckFill className='icon' />
+                            <div>
+                                <h4>Node.js</h4>
+                                <small className='text-light'>Beginner</small>
+                            </div>
+                        </article>
 
                     </ExperienceContent>
                 </ExperienceFrontBackEnd>

@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../Assets/CV.pdf';
+import CV from '../../Assets/React_Dev_Naga_Veera_Bheema_Reddy.pdf';
 import { ContactLinks } from './HeaderStyles';
 
 function CTA() {

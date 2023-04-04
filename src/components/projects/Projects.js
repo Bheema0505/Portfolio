@@ -5,8 +5,12 @@ import boozo from '../../Assets/Boozo.png';
 import drumkit from '../../Assets/drumkit.png';
 import ibsc from '../../Assets/ibsc.png';
 import question from '../../Assets/question2.png';
+import ExpenseAdderPNG from '../../Assets/ExpenseAdder.png'
+import CocktailDBPNG from '../../Assets/CocktailDB.png'
 import { ProjectsContainerTag, ProjectsItem, ProjectsItemCta, ProjectsItemImage } from './ProjectsStyles';
-
+import MoviesDb from '../../Assets/MoviesDB.png'
+import TheMenu from '../../Assets/The menu.png'
+import HotelNative from '../../Assets/Hotel Native.png'
 
 const projetcsData = [
     {
@@ -49,9 +53,58 @@ const projetcsData = [
         btn: 'Source Code',
 
     },
-
     {
         id: 5,
+        Image: ExpenseAdderPNG,
+        title: 'Expense Adder',
+        link: 'https://nagaveera-expenseadder.netlify.app/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
+
+    },
+    {
+        id: 6,
+        Image: CocktailDBPNG,
+        title: 'Cocktail DB',
+        link: 'https://nagaveera-cocktaildb.netlify.app/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
+
+    },
+    {
+        id: 7,
+        Image: MoviesDb,
+        title: 'Movies DB',
+        link: 'https://nagaveera-moviesdb.netlify.app/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
+
+    },
+    {
+        id: 8,
+        Image: HotelNative,
+        title: 'Hotel Native',
+        link: 'https://nagaveera-hotelnative.netlify.app/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
+
+    },
+    {
+        id: 9,
+        Image: TheMenu,
+        title: 'The Menu',
+        link: 'https://nagaveera-themenu.netlify.app/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
+
+    },
+    {
+        id: 10,
         Image: question,
         title: 'Your Project',
         link: '#contact',

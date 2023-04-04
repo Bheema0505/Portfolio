@@ -22,13 +22,13 @@ const testimonialsData = [
         id: Math.floor(Math.random() * 101),
         avatar: satya,
         name: 'V.V. Satya Prakash Valluri',
-        review: 'he\'s very passionate about the work, puts good attention and able to code with minimal support. He\'s our five-star performer '
+        review: 'he\'s very passionate about work, puts good attention and able to code with minimal support. He\'s our five-star performer. '
     },
     {
         id: Math.floor(Math.random() * 101),
         avatar: gitesh,
         name: 'Gitesh Chaudary',
-        review: 'Bheema has strong knowledge of UI technologies. He single-handedly developed all UIs for IBSC web project with professional look and feel. it\'s great to have such a talent in our team'
+        review: 'Bheema has strong knowledge of UI technologies. He single-handedly developed all UIs for IBSC project with professional look and feel. Great to have such a talent.'
     },
 
 ]
@@ -40,9 +40,11 @@ function Testimonials() {
             <h2>Testimonials</h2>
             <Swiper className='container testimonials__container'
                 spaceBetween={100}
-
                 loop={true}
-              
+                autoplay={{
+                    delay: 10000,
+                    disableOnInteraction: false
+                }}
                 pagination={{
                     clickable: true,
                 }}

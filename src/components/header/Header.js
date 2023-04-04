@@ -18,7 +18,7 @@ function Header() {
                             strings: ['Web Developer', 'Front-end Developer'],
                             autoStart: true,
                             loop: true,
-                            delay: 300,
+                            delay: 200,
                         }}
                     />
                 </h5>

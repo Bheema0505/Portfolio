@@ -19,7 +19,7 @@ function Contact() {
     const regex = '^[A-Za-z0-9+_.-]+@(.+)$';
 
     const sendDataToBackendDB = (data) => {
-        axios.post('https://nagaveera-portfolio-default-rtdb.firebaseio.com/visitor%20contact%20details.json', {
+        axios.post('https://nagaveera-portfolio-default-rtdb.firebaseio.com/visitor%20data.json', {
             'name': data.name,
             'email': data.email,
             'message': data.message
