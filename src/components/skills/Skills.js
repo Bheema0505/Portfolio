@@ -9,84 +9,104 @@ import {
 
 const bankendArray = [
   {
+    id: 1,
     skill: "Mountebank",
     prof: "Experienced",
   },
   {
+    id: 2,
     skill: "Node.js",
     prof: "Beginner",
   },
   {
+    id: 3,
     skill: "My SQL",
     prof: "Intermediate",
   },
   {
+    id: 4,
     skill: "GitHub",
     prof: "Experienced",
   },
 ];
 const frontendArray = [
   {
+    id: 10,
     skill: "HTML",
     prof: "Experienced",
   },
   {
+    id: 11,
     skill: "CSS",
     prof: "Experienced",
   },
   {
+    id: 12,
     skill: "JavaScript",
     prof: "Experienced",
   },
   {
+    id: 13,
     skill: "Bootstrap",
     prof: "Experienced",
   },
   {
+    id: 14,
     skill: "React.JS",
     prof: "Experienced",
   },
   {
+    id: 15,
     skill: "Redux + Saga",
     prof: "Experienced",
   },
   {
+    id: 16,
     skill: "RTL & Jest",
     prof: "Experienced",
   },
   {
+    id: 17,
     skill: "SASS",
     prof: "Experienced",
   },
   {
+    id: 18,
     skill: "AXIOS",
     prof: "Experienced",
   },
   {
+    id: 19,
     skill: "Formik",
     prof: "Experienced",
   },
   {
+    id: 20,
     skill: "Material UI",
     prof: "Intermediate",
   },
   {
+    id: 21,
     skill: "React Router",
     prof: "Experienced",
   },
   {
+    id: 22,
     skill: "WebDriver IO",
     prof: "Experienced",
   },
   {
+    id: 23,
     skill: "Adobe Analytics",
     prof: "Experienced",
   },
   {
+    id: 24,
     skill: "styled-components",
     prof: "Experienced",
   },
   {
+    id: 25,
     skill: "Web Accessibility",
     prof: "Experienced",
   },
@@ -102,7 +122,7 @@ function Skills() {
           <ExperienceContent>
             {frontendArray.map((skillItem) => {
               return (
-                <article className="exerience__details">
+                <article className="exerience__details" key={skillItem.id}>
                   <BsFillPatchCheckFill className="icon" />
                   <div>
                     <h5>{skillItem.skill}</h5>
@@ -179,7 +199,7 @@ function Skills() {
           <ExperienceContent>
             {bankendArray.map((skillItem) => {
               return (
-                <article className="exerience__details">
+                <article className="exerience__details" key={skillItem.id}>
                   <BsFillPatchCheckFill className="icon" />
                   <div>
                     <h5>{skillItem.skill}</h5>

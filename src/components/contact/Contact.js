@@ -38,6 +38,7 @@ function Contact() {
         }
       )
       .then((response) => {
+        console.log("response", response);
         if (response.statusText === "OK") {
           setshowSuccessAlert(true);
           setTimeout(() => {
@@ -51,6 +52,7 @@ function Contact() {
         }
       })
       .catch((error) => {
+        console.log("error", error);
         if (
           error.response.data.error ||
           error.status === 401 ||
