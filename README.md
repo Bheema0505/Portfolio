@@ -13,3 +13,7 @@ to deploy the latest react build in firebase
 4. npm run build (new terminal)
 
 5. firebase deploy
+
+to know more about deploying steps, refer below youtube video
+
+https://youtu.be/RIu9egL4uoY?si=h2jGk3083oPMKyYR
