@@ -5,6 +5,8 @@ import boozo from '../../Assets/Boozo.png';
 // import drumkit from '../../Assets/drumkit.png';
 import ibsc from '../../Assets/ibsc.png';
 import question from '../../Assets/question2.png';
+import Brock from '../../Assets/Brock.png';
+import LOCI from '../../Assets/Loci.png';
 import ExpenseAdderPNG from '../../Assets/ExpenseAdder.png'
 import CocktailDBPNG from '../../Assets/CocktailDB.png'
 import { ProjectsContainerTag, ProjectsItem, ProjectsItemCta, ProjectsItemImage } from './ProjectsStyles';
@@ -15,22 +17,22 @@ import HotelNative from '../../Assets/Hotel Native.png'
 const projetcsData = [
     {
         id: 1,
-        Image: question,
+        Image: Brock,
         title: 'Brock - Infrastructure Platform',
-        link: '#contact',
-        target: '',
-        rel: '',
-        btn: 'Contact Me',
+        link: 'https://www.lowes.com/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
         description: 'Self-service platform for VM, Load Balancer, and DNS provisioning'
     },
     {
         id: 2,
-        Image: question,
+        Image: LOCI,
         title: 'LOCI - CI Platform',
-        link: '#contact',
-        target: '',
-        rel: '',
-        btn: 'Contact Me',
+        link: 'https://www.lowes.com/',
+        target: '_blank',
+        rel: 'noreferrer',
+        btn: 'Visit Page',
         description: 'Event-driven CI system replacing Jenkins with 9K+ repos and 2M+ builds'
     },
     {
