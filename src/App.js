@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import Services from './components/services/Services';
+import Education from './components/education/Education';
 import Testimonials from './components/testimonials/Testimonials';
 import Projects from './components/projects/Projects';
 // import { Routes, Route } from 'react-router';
@@ -26,6 +27,7 @@ function App() {
         <Skills />
         <Services />
         <Projects />
+        <Education />
         <Testimonials />
         <Contact />
         <Footer />

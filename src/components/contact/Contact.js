@@ -77,9 +77,9 @@ function Contact() {
           <ContactMethod>
             <MdOutlineEmail className="contact__method-icon" />
             <h4>Email</h4>
-            <h5>bheemareddypucha@gmail.com</h5>
+            <h5>nagaveerapucha@gmail.com</h5>
             <a
-              href="mailto:bheemareddypucha@gmail.com"
+              href="mailto:nagaveerapucha@gmail.com"
               rel="noreferrer"
               target="_blank"
             >

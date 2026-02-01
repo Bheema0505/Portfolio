@@ -1,5 +1,6 @@
 import React from "react";
-import CV from "../../Assets/React_Developer_Naga_Veera_Bheema_Reddy.pdf";
+// import CV from "../../Assets/React_Developer_Naga_Veera_Bheema_Reddy.pdf";
+import CV from "../../Assets/FullStack_Developer_Naga_Veera_Bheema_Reddy.pdf";
 import { ContactLinks } from "./HeaderStyles";
 
 function CTA() {

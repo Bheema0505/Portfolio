@@ -2,7 +2,7 @@ import React from 'react'
 // import './portfolio.css'
 import anz from '../../Assets/anz.png';
 import boozo from '../../Assets/Boozo.png';
-import drumkit from '../../Assets/drumkit.png';
+// import drumkit from '../../Assets/drumkit.png';
 import ibsc from '../../Assets/ibsc.png';
 import question from '../../Assets/question2.png';
 import ExpenseAdderPNG from '../../Assets/ExpenseAdder.png'
@@ -15,8 +15,28 @@ import HotelNative from '../../Assets/Hotel Native.png'
 const projetcsData = [
     {
         id: 1,
+        Image: question,
+        title: 'Brock - Infrastructure Platform',
+        link: '#contact',
+        target: '',
+        rel: '',
+        btn: 'Contact Me',
+        description: 'Self-service platform for VM, Load Balancer, and DNS provisioning'
+    },
+    {
+        id: 2,
+        Image: question,
+        title: 'LOCI - CI Platform',
+        link: '#contact',
+        target: '',
+        rel: '',
+        btn: 'Contact Me',
+        description: 'Event-driven CI system replacing Jenkins with 9K+ repos and 2M+ builds'
+    },
+    {
+        id: 3,
         Image: anz,
-        title: 'ANZ',
+        title: 'ANZ Banking Platform',
         link: 'https://www.anz.co.nz/personal/',
         target: '_blank',
         rel: 'noreferrer',
@@ -24,9 +44,9 @@ const projetcsData = [
 
     },
     {
-        id: 2,
+        id: 4,
         Image: ibsc,
-        title: 'IBSC',
+        title: 'ANZ-IBSC Onboarding',
         link: 'https://github.com/Bheema0505/ANZ-IBSC',
         btn: 'Source Code',
         target: '_blank',
@@ -34,7 +54,7 @@ const projetcsData = [
 
     },
     {
-        id: 3,
+        id: 5,
         Image: boozo,
         title: 'BOOZO',
         link: 'https://github.com/Bheema0505/Boozo',
@@ -43,18 +63,18 @@ const projetcsData = [
         btn: 'Source Code',
 
     },
-    {
-        id: 4,
-        Image: drumkit,
-        title: 'DRUM KIT',
-        link: 'https://github.com/Bheema0505/DrumKit',
-        target: '_blank',
-        rel: 'noreferrer',
-        btn: 'Source Code',
+    // {
+    //     id: 6,
+    //     Image: drumkit,
+    //     title: 'DRUM KIT',
+    //     link: 'https://github.com/Bheema0505/DrumKit',
+    //     target: '_blank',
+    //     rel: 'noreferrer',
+    //     btn: 'Source Code',
 
-    },
+    // },
     {
-        id: 5,
+        id: 7,
         Image: ExpenseAdderPNG,
         title: 'Expense Adder',
         link: 'https://nagaveera-expenseadder.netlify.app/',
@@ -64,7 +84,7 @@ const projetcsData = [
 
     },
     {
-        id: 6,
+        id: 8,
         Image: CocktailDBPNG,
         title: 'Cocktail DB',
         link: 'https://nagaveera-cocktaildb.netlify.app/',
@@ -74,7 +94,7 @@ const projetcsData = [
 
     },
     {
-        id: 7,
+        id: 9,
         Image: MoviesDb,
         title: 'Movies DB',
         link: 'https://nagaveera-moviesdb.netlify.app/',
@@ -84,7 +104,7 @@ const projetcsData = [
 
     },
     {
-        id: 8,
+        id: 10,
         Image: HotelNative,
         title: 'Hotel Native',
         link: 'https://nagaveera-hotelnative.netlify.app/',
@@ -94,7 +114,7 @@ const projetcsData = [
 
     },
     {
-        id: 9,
+        id: 11,
         Image: TheMenu,
         title: 'The Menu',
         link: 'https://nagaveera-themenu.netlify.app/',
@@ -104,7 +124,7 @@ const projetcsData = [
 
     },
     {
-        id: 10,
+        id: 12,
         Image: question,
         title: 'Your Project',
         link: '#contact',

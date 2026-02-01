@@ -11,11 +11,11 @@ function Header() {
         <HeaderTag>
             <HeaderCont className='container' id='home' >
                 <h5> Hello I'm</h5>
-                <h1> Naga Veera</h1>
+                <h1> Naga Veera Bheema Reddy Pucha</h1>
                 <h5 className='text-light'>
                     <Typewriter
                         options={{
-                            strings: ['Web Developer', 'Front-end Developer'],
+                            strings: ['Full Stack Software Engineer', 'React Developer', 'Golang Developer'],
                             autoStart: true,
                             loop: true,
                             delay: 200,

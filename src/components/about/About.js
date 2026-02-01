@@ -1,6 +1,7 @@
 import React from "react";
 // import './about.css'
-import aboutPic from "../../Assets/aboutPic.jpg";
+// import aboutPic from "../../Assets/aboutPic.jpg";
+import aboutPic from "../../Assets/About-pic2.jpg";
 import { TbAward } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { BsFolder2Open } from "react-icons/bs";
@@ -30,17 +31,17 @@ function About() {
             <AboutCardTag>
               <TbAward className="about__icon" />
               <h5>Experience</h5>
-              <small> 2+ years</small>
+              <small> 4+ years</small>
             </AboutCardTag>
             <AboutCardTag>
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>ANZ Ltd</small>
+              <h5>Companies</h5>
+              <small>Lowe's India, Infosys</small>
             </AboutCardTag>
             <AboutCardTag>
               <BsFolder2Open className="about__icon" />
               <h5>Projects</h5>
-              <small> 2 </small>
+              <small> 4 </small>
             </AboutCardTag>
           </AboutCardsTag>
           {/* <p> I am a Multi-disciplinary
@@ -53,11 +54,10 @@ function About() {
                         as a React Developer.
                     </p> */}
           <p>
-            Passionate React Developer with 2+ years of hands-on experience at
-            <span style={{ color: "RoyalBlue" }}> Infosys LTD </span>.
-            Transforming ideas into dynamic web solutions. Enthusiastic about
-            creating engaging user experiences through HTML, CSS, and
-            JavaScript. Let's build the extraordinary together.
+            Full Stack Software Engineer with 4+ years of experience in Golang (Gin) and React, building scalable internal
+            platforms, automating infrastructure provisioning, and delivering secure, event-driven CI/CD solutions at
+            enterprise scale. Currently working at <span style={{ color: "RoyalBlue" }}> Lowe's India </span> with strong ownership,
+            cross-team collaboration, and a focus on reliability and performance.
           </p>
           <a href="#contact" className="btn bn-primary">
             {" "}

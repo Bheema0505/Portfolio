@@ -7,25 +7,95 @@ import {
   ExperienceFrontBackEnd,
 } from "./SkillsStyles";
 
-const bankendArray = [
+const backendArray = [
   {
     id: 1,
-    skill: "Mountebank",
+    skill: "Golang (Gin)",
     prof: "Experienced",
   },
   {
     id: 2,
     skill: "Node.js",
-    prof: "Beginner",
+    prof: "Intermediate",
   },
   {
     id: 3,
+    skill: "PostgreSQL",
+    prof: "Experienced",
+  },
+  {
+    id: 4,
+    skill: "SQL",
+    prof: "Experienced",
+  },
+  {
+    id: 5,
+    skill: "Docker",
+    prof: "Experienced",
+  },
+  {
+    id: 6,
+    skill: "CI/CD Pipelines",
+    prof: "Experienced",
+  },
+  {
+    id: 7,
+    skill: "Argo CD",
+    prof: "Experienced",
+  },
+  {
+    id: 8,
+    skill: "Argo Workflows",
+    prof: "Experienced",
+  },
+  {
+    id: 9,
+    skill: "VMware",
+    prof: "Experienced",
+  },
+  {
+    id: 10,
+    skill: "Jenkins",
+    prof: "Experienced",
+  },
+  {
+    id: 11,
+    skill: "Prometheus",
+    prof: "Experienced",
+  },
+  {
+    id: 12,
+    skill: "Grafana",
+    prof: "Experienced",
+  },
+  {
+    id: 13,
+    skill: "Mountebank",
+    prof: "Experienced",
+  },
+  {
+    id: 14,
     skill: "My SQL",
     prof: "Intermediate",
   },
   {
-    id: 4,
+    id: 15,
     skill: "GitHub",
+    prof: "Experienced",
+  },
+  {
+    id: 16,
+    skill: "GIT / Bit Bucket",
+    prof: "Experienced",
+  },
+  {
+    id: 17,
+    skill: "Postman",
+    prof: "Experienced",
+  },
+  {
+    id: 18,
+    skill: "Jira + Confluence",
     prof: "Experienced",
   },
 ];
@@ -47,12 +117,12 @@ const frontendArray = [
   },
   {
     id: 13,
-    skill: "Bootstrap",
+    skill: "TypeScript",
     prof: "Experienced",
   },
   {
     id: 14,
-    skill: "React.JS",
+    skill: "React.js",
     prof: "Experienced",
   },
   {
@@ -67,47 +137,57 @@ const frontendArray = [
   },
   {
     id: 17,
-    skill: "SASS",
-    prof: "Experienced",
-  },
-  {
-    id: 18,
-    skill: "AXIOS",
-    prof: "Experienced",
-  },
-  {
-    id: 19,
-    skill: "Formik",
-    prof: "Experienced",
-  },
-  {
-    id: 20,
-    skill: "Material UI",
-    prof: "Intermediate",
-  },
-  {
-    id: 21,
-    skill: "React Router",
-    prof: "Experienced",
-  },
-  {
-    id: 22,
     skill: "WebDriver IO",
     prof: "Experienced",
   },
   {
+    id: 18,
+    skill: "SASS",
+    prof: "Experienced",
+  },
+  {
+    id: 19,
+    skill: "Material UI",
+    prof: "Experienced",
+  },
+  {
+    id: 20,
+    skill: "Bootstrap",
+    prof: "Experienced",
+  },
+  {
+    id: 21,
+    skill: "Web Accessibility",
+    prof: "Experienced",
+  },
+  {
+    id: 22,
+    skill: "Axe DevTools",
+    prof: "Experienced",
+  },
+  {
     id: 23,
-    skill: "Adobe Analytics",
+    skill: "AXIOS",
     prof: "Experienced",
   },
   {
     id: 24,
-    skill: "styled-components",
+    skill: "Formik",
     prof: "Experienced",
   },
   {
     id: 25,
-    skill: "Web Accessibility",
+    skill: "React Router",
+    prof: "Experienced",
+  },
+  {
+    id: 26,
+    skill: "Adobe Analytics",
+    prof: "Experienced",
+  },
+  {
+    id: 27,
+    skill: "styled-components",
     prof: "Experienced",
   },
 ];
@@ -195,9 +275,9 @@ function Skills() {
         {/* end of front end */}
 
         <ExperienceFrontBackEnd>
-          <h3>Backend Technologies</h3>
+          <h3>Backend & DevOps</h3>
           <ExperienceContent>
-            {bankendArray.map((skillItem) => {
+            {backendArray.map((skillItem) => {
               return (
                 <article className="exerience__details" key={skillItem.id}>
                   <BsFillPatchCheckFill className="icon" />
