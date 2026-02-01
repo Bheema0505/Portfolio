@@ -19,7 +19,7 @@ function Footer() {
             </FooterSocialLinksUlTag>
             <FooterSocials>
 
-                <a href="https://www.instagram.com/chota_._bheem_/" rel='noreferrer' target='_blank'> <BsInstagram /></a>
+                <a href="https://www.instagram.com/bheema_reddy._/" rel='noreferrer' target='_blank'> <BsInstagram /></a>
                 <a href="https://t.me/Naga_Veera_Bheema_Reddy_Pucha" rel='noreferrer' target='_blank'> <BsTelegram /></a>
                 <a href="https://twitter.com/nagaveera_pucha" rel='noreferrer' target='_blank'> <BsTwitter /></a>
 
