@@ -1,5 +1,7 @@
 # Portfolio
 
+deployed in firebase and with the gmail "bheemareddy9640@gmail.com"
+
 my porsonal portfolio
 
 to deploy the latest react build in firebase
